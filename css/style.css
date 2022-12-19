@@ -686,6 +686,13 @@
   margin-right: 14px;
 }
 
+.data1 input:focus,
+.data2 input:focus,
+.reserve-form textarea:focus {
+  outline: none;
+  border: 1px solid var(--primary);
+}
+
 .text-area {
   width: 99%;
   background-color: black;
@@ -984,6 +991,12 @@
   border: 1px solid var(--secondary);
   background-color: #1a1814;
 }
+.name-email input:focus,
+.contact-form textarea:focus,
+.contact-form input:focus {
+  outline: none;
+  border: 1px solid var(--primary);
+}
 .msg {
   padding: 10px 15px;
   background-color: var(--primary);
@@ -1048,6 +1061,10 @@
 }
 .last-list .p1 {
   padding-top: 20px;
+}
+.last-li a {
+  text-decoration: none;
+  color: white;
 }
 .last-list h3 {
   padding: 20px 0px;
