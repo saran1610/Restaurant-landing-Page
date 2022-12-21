@@ -440,14 +440,14 @@
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
-.dish-details span::after {
+/* .dish-details span::after {
   content: "";
   height: 1px;
   width: 350px;
   background-color: grey;
   display: inline-block;
   margin: 4px 10px;
-}
+} */
 .menu-items {
   width: 100%;
   margin-top: 20px;

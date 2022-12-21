@@ -1,0 +1,230 @@
+/* ------------tab view----------- */
+@media (min-width:577px) and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+  .body-cont {
+    flex-flow: column-reverse;
+  }
+  .header-inf0{
+    padding:10px;
+  }
+  .body-img, .body-para{
+    width:100%;
+  }
+  .banner{
+    flex-direction: column;
+    padding:139px;
+  }
+  .banner h2{
+    font-size:28px;
+  }
+  .body-para h2{
+    margin-top:20px;
+  }
+  .play-btn a{
+    top:300px;
+    right:310px;
+  }
+  .nav-btn,
+  .head-book{
+    display: none;
+  }
+  .why-box {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .whyus{
+    padding:50px 0px;
+  }
+  .boxes {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .spl-cont2 {
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+  .event-pic img{
+    width:650px;
+  }
+  .event-data{
+    width:100%;
+    margin-top:20px;
+    padding:2px;
+  }
+  .spl-headng{
+    width:100%;
+  }
+  .spl-img img{
+    width:650px;
+    height:650px;
+  }
+  .spl-cont1{
+    width:90%;
+  }
+  .spl-sec2,
+  .event-details {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .menu-items {
+    padding-left: 50px;
+    flex-direction: column-reverse;
+    
+  }
+.chef-chnge{
+  width: 46%;
+  margin-bottom: 20px;
+}
+  .chef-img, .final-sec{
+    flex-wrap: wrap;
+  }
+  .test-overall{
+    justify-content: center;
+  }
+  .test-chnge {
+   display:none;
+  }
+  .test-details{
+    width:90%;
+  }
+  .test-move{
+    top:130px;
+  }
+  .gallery-images{
+    width:33%;
+  }
+  .data1, .data2{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+  }
+ 
+  .reserve-form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-details{
+    flex-direction: column;
+  }
+  .sec-1, .sec-2, .sec-3, .sec-4{
+    width:50%;
+    margin-bottom:20px;
+  }
+  .contact-form{
+    width:100%;
+  }
+  .name{
+    width:97%;
+  }
+  .spl-li{
+    border:none;
+  }
+}
+
+/* ------------mobile view---------------- */
+@media (max-width:576px){
+  .container {
+    width:95%;
+  }
+  .header-en{
+    display:none;
+  }
+  .banner h2{
+    font-size:27px;
+  }
+  .banner{
+    justify-content: center;
+    padding-top:70px;
+  }
+  .banner a{
+    margin-left:25px;
+  }
+  .play-btn a{
+    right:180px;
+    top:230px;
+  }
+  .body-img{
+    width:100%;
+  }
+  .contact-info a{
+    margin-left:10px;
+  }
+  .contact-info{
+    padding:10px;
+  }
+  .list{
+    display:none;
+  }
+  .head-book{
+    display:none;
+  }
+  .event-details, .why-box, .menu-items,  .chef-img, .contact-details, .final-sec, .name-email{
+    flex-direction: column;
+  }
+  .whyus{
+    padding:25px 0px;
+  }
+  .chef-image{
+    width:100%;
+    margin-bottom:20px;
+  }
+  .body-cont{
+    flex-direction: column-reverse;
+  }
+  .body-para, .contact-data, .contact-form, .event-pic{
+    width:100%;
+  }
+  .body-para h2{
+    font-size: 24px;
+    margin-top:20px;
+  }
+  .name-changes{
+    margin-bottom:15px;
+  }
+  .sec-1, .sec-2, .sec-3, .sec-4{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  .spl-cont1, .event-data{
+    width: 100%;
+  }
+  .spl-headng{
+    width:100%;
+  }
+  .spl-li{
+    border:none;
+  }
+  .boxes{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  .test-chnge{
+    display:none;
+  }
+  .test-details{
+    width:100%;
+  }
+  .name{
+    width:100%;
+  }
+  .names{
+    width:100%;
+  }
+  .gallery-img{
+    flex-direction: column;
+  }
+  .gallery-images{
+    width:100%;
+  }
+  .spl-sec2{
+    flex-direction: column;
+  }
+  .spl-cont2{
+    flex-flow: column-reverse;
+  }
+}
