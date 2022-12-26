@@ -284,6 +284,7 @@
 }
 .body-cont {
   padding: 60px 0px;
+  align-items: flex-start;
 }
 .body-img {
   width: 50%;
